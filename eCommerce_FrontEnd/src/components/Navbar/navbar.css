@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap');
+
+.navbar-container-fluid {
+    background-color: #292929;
+}
+
+.navbar-container {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar-container ul li {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logo-container img {
+    height: 100px;
+    width: 100px;
+}
+
+.login-register {
+    display: flex !important;
+    align-items: center;
+    gap: 1px !important;
+}
+
+.divider {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login-form input{
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.email-input{
+    position: relative;
+}
+.modal-footer{
+    border-top: none;
+}
